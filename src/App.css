@@ -13,9 +13,52 @@
   }
 }
 
+p {
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.has {
+  height: 27.5vh;
+  width: auto;
+  margin: auto;
+  margin-right: 3vw;
+}
+
+.GIGAHAS {
+  visibility: visible;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  
+}
+
+.about {
+  margin: auto;
+}
+
+.background {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: #3c414d;
+  padding: 5vh 15vw 5vh 15vw;
+}
+
+h2 {
+  font-size: calc(14px + 2vmin);
+
+  color: whitesmoke;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
   align-items: center;
